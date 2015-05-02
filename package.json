@@ -14,7 +14,7 @@
     "karma-junit-reporter": "^0.2.2"
   },
   "scripts": {
-    "postinstall": "bower update",
+    "postinstall": "./node_modules/bower/bin/bower update",
     "prestart": "npm update"
   }
 }
