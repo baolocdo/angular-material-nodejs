@@ -52,6 +52,7 @@
     <script src="./bower_components/angular-aria/angular-aria.js"></script>
     <script type="text/javascript" src="./bower_components/angular-material/angular-material.js"></script>
     <script type="text/javascript" src="./bower_components/firebase/firebase.js"></script>
+    <script type="text/javascript" src="./bower_components/angularfire/dist/angularfire.js"></script>
 
     <script src="./src/users/Users.js"></script>
     <script src="./src/users/UserController.js"></script>
@@ -60,7 +61,7 @@
     <script type="text/javascript">
 
           angular
-              .module('starterApp', ['ngMaterial', 'users'])
+              .module('starterApp', ['ngMaterial', 'users', 'firebase'])
               .config(function($mdThemingProvider, $mdIconProvider){
 
                   $mdIconProvider
